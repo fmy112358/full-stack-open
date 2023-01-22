@@ -1,0 +1,6 @@
+@startuml New note in Single page app diagram
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: {message: "note created"}
+
+@enduml
